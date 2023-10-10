@@ -1,0 +1,31 @@
+   /* CSS variables */
+   :root {
+     --background-color: black;
+     --text-color: #eb1abd;
+     --hero-background-color: #51a0ce;
+     --hero-text-color: darkviolet;
+     --cryptocurrency-text-color: #63e951;
+   }
+
+   /* Hero styles */
+   .hero {
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: var(--hero-background-color);
+     color: var(--hero-text-color);
+   }
+
+   /* Body styles */
+   body {
+     font-family: 'Helvetica Neue', Arial, sans-serif;
+     background-color: var(--background-color);
+     color: var(--text-color);
+   }
+
+   /* Cryptocurrency styles */
+   .cryptocurrency {
+     padding: 40px 0;
+     color: var(--cryptocurrency-text-color);
+   }
